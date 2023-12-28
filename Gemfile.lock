@@ -110,6 +110,8 @@ GEM
     drb (2.2.0)
       ruby2_keywords
     erubi (1.12.0)
+    faker (3.2.2)
+      i18n (>= 1.8.11, < 2)
     ffi (1.16.3-x64-mingw-ucrt)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -218,6 +220,10 @@ GEM
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
     rake (13.1.0)
+    ransack (4.1.1)
+      activerecord (>= 6.1.5)
+      activesupport (>= 6.1.5)
+      i18n
     rdoc (6.6.2)
       psych (>= 4.0.0)
     regexp_parser (2.8.3)
@@ -280,12 +286,14 @@ DEPENDENCIES
   capybara
   debug
   devise
+  faker (~> 3.2)
   image_processing (~> 1.2)
   importmap-rails
   jbuilder
   noticed (~> 1.6)
   puma (>= 5.0)
   rails (~> 7.1.2)
+  ransack (~> 4.1)
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)

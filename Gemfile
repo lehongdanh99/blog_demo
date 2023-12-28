@@ -70,3 +70,7 @@ gem 'devise'
 
 
 gem "noticed", "~> 1.6"
+
+gem "ransack", "~> 4.1"
+
+gem "faker", "~> 3.2"
